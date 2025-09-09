@@ -1,7 +1,11 @@
 # project_2
 ​​蒲公英自动化
 项目介绍：该项目是一个UI自动化框架的封装平台,主要基于Python+PlayWright搭建了接口自动化框架,实现注册,登录,新增项目,新增环境等功能用例转自动化的实现,并且合理使用断言,生成可视化的测试报告；
+
+
 技术栈：Python+pytest+playwright+Ajax+allure+Jenkins+docker+Linux
+
+
 项目亮点：
 采用pytest测试框架的规则来维护用例,采用@pytest.mark.parametrize钩子函数维护参数的传递与提取;
 采用playwright支持的定位方法,如Selector选择器,get_by_text等,并很好的处理了iframe定位的问题;
